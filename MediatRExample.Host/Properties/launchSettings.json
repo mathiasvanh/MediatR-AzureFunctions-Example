@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "MediatR.Host": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7188",
+      "launchBrowser": false
+    }
+  }
+}

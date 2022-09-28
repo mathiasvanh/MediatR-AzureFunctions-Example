@@ -1,0 +1,17 @@
+{
+    "version": "2.0",
+    "logging": {
+        "applicationInsights": {
+            "samplingSettings": {
+                "isEnabled": true,
+                "excludedTypes": "Request"
+            }
+        }
+    },
+    "http": {
+        "routePrefix": "api",
+        "maxOutstandingRequests": 2000,
+        "maxConcurrentRequests": 1000,
+        "dynamicThrottlesEnabled": true
+    }
+}
