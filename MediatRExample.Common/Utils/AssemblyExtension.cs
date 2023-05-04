@@ -15,7 +15,8 @@ namespace MediatRExample.Common.Utils
         public static IEnumerable<Assembly> GetAllReferencedModuleAssemblies(this IEnumerable<Assembly> assemblies)
         {
             return assemblies.GetAllReferencedMediatRExampleAssemblies()
-                .Where(a => a.FullName?.StartsWith("MediatRExample.Modules.Weather") ?? false);
+                .Where(a => a.FullName?.StartsWith("MediatRExample.Modules") ?? false);
+
         }
 
         public static List<Assembly> GetAllReferencedMediatRExampleAssemblies(this IEnumerable<Assembly> assemblies)

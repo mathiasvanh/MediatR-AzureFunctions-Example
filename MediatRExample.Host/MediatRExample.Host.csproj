@@ -19,6 +19,7 @@
     </ItemGroup>
     <ItemGroup>
       <ProjectReference Include="..\MediatRExample.Common\MediatRExample.Common.csproj" />
+      <ProjectReference Include="..\MediatRExample.Modules.Quiz\MediatRExample.Modules.Quiz.csproj" />
       <ProjectReference Include="..\MediatRExample.Modules\MediatRExample.Modules.Weather.csproj" />
     </ItemGroup>
 </Project>
